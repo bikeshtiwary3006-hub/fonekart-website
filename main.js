@@ -249,7 +249,7 @@ function visual(product, size = '') {
 
 function header() {
   const count = state.cart.reduce((sum, item) => sum + item.qty, 0);
-  const nav = ['Covers', 'Screen Guards', 'iPhone', 'Android', 'Watch Straps', 'iPad', 'Laptop', 'Book Installation', 'Store'];
+  const nav = ['Home', 'Covers', 'Screen Guards', 'iPhone', 'Android', 'Watch Straps', 'iPad', 'Laptop', 'Book Installation', 'Store'];
   return `<div class="announcement">${icon('spark')} Opening offer - Curated Cases, Screen Guards and Accessories now available with home fitting.</div>
   <header class="site-header">
     <button class="logo" data-go="home"><span>F</span> FoneKart</button>
@@ -555,8 +555,9 @@ function bind() {
   document.querySelectorAll('[data-nav]').forEach((el) => el.addEventListener('click', () => {
     const item = el.dataset.nav;
     const map = { Covers: 'Mobile Covers', 'Screen Guards': 'Tempered Glass', 'Watch Straps': 'Smartwatch Straps', iPad: 'iPad/Tablet Covers', Laptop: 'Laptop Accessories' };
-    if (item === 'Book Installation') go('installation');
-    else if (item === 'Store') go('store');
+    if (item === 'Home') go('home');
+    else if (item === 'Book Installation') go('installation');
+    else if (item === 'Store') go('store');  
     else go('category', { category: map[item] || 'All' });
   }));
   const menu = document.querySelector('[data-menu]');
