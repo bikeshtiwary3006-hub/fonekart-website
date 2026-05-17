@@ -4,11 +4,11 @@
   background: #fbfaf7;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  --accent: #2f6bff;
-  --ink: #111318;
-  --muted: #68707d;
-  --line: #e7e3dc;
-  --soft: #f4f1eb;
+  --accent: #0F766E;
+  --ink: #0D1321;
+  --muted: #5F6B66;
+  --line: #E2E8E5;
+  --soft: #F7F8F6;
   --white: #ffffff;
   --radius: 28px;
   --shadow: 0 20px 70px rgba(17, 19, 24, 0.09);
@@ -1136,7 +1136,7 @@ footer div { display: grid; align-content: start; gap: 4px; }
   --muted: #596273;
   --line: #e6e9ef;
   --soft: #f6f7f9;
-  --accent: #246bfe;
+  --accent: #0F766E;
   --shadow: 0 24px 80px rgba(13, 19, 33, .11);
 }
 
@@ -1159,7 +1159,7 @@ body {
   padding-top: clamp(42px, 6vw, 72px);
   background:
     linear-gradient(180deg, rgba(255,255,255,.86), rgba(247,248,251,0)),
-    radial-gradient(circle at 14% 8%, rgba(36,107,254,.08), transparent 32%);
+    radial-gradient(circle at 14% 8%, rgba(15,118,110,.08), transparent 32%);
 }
 
 .fk-hero-v3 h1 {
@@ -1436,7 +1436,7 @@ body {
 .card-bottom button,
 .dual-actions button:last-child {
   background: var(--accent);
-  box-shadow: 0 10px 24px rgba(36,107,254,.2);
+  box-shadow: 0 10px 24px rgba(15,118,110,.2);
 }
 
 .why-v3 .compare-grid div {
