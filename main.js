@@ -266,9 +266,9 @@ function header() {
 function hero() {
   return `<section class="hero fk-hero-v3">
     <div class="hero-copy reveal">
-      <p class="eyebrow">Noida's curated accessories + home fitting</p>
-      <h1>Upgrade your phone. Protect it beautifully.</h1>
-      <p>Curated mobile accessories, premium screen protection and doorstep fitting in Noida / NCR.</p>
+      <p class="eyebrow">CURATED ACCESSORIES. PROFESSIONAL FITTING.</p>
+      <h1>Style, Protect & Upgrade Your Phone</h1>
+      <p>Quality-tested Screen Guards, curated accessories and expert doorstep fitting for your device.</p>
       <div class="hero-actions"><button class="primary" data-go="shop">Shop Accessories ${icon('arrow')}</button><button class="secondary" data-go="installation">Book Home Installation</button></div>
       <div class="mini-proof"><span>${icon('shield')} Bubble-free fitting</span><span>${icon('truck')} Same-day Noida slots</span><span>${icon('check')} Pay after service</span><span>${icon('spark')} Curated premium accessories</span></div>
     </div>
