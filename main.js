@@ -250,7 +250,7 @@ function visual(product, size = '') {
 function header() {
   const count = state.cart.reduce((sum, item) => sum + item.qty, 0);
   const nav = ['Covers', 'Screen Guards', 'iPhone', 'Android', 'Watch Straps', 'iPad', 'Laptop', 'Book Installation', 'Store'];
-  return `<div class="announcement">${icon('spark')} Now launching in Noida - book home installation for tempered glass and phone accessories.</div>
+  return `<div class="announcement">${icon('spark')} Opening offer - curated cases, Screen Guards and accessories now available with home fitting.</div>
   <header class="site-header">
     <button class="logo" data-go="home"><span>F</span> FoneKart</button>
     <nav class="desktop-nav">${nav.map((item) => `<button data-nav="${item}">${item}</button>`).join('')}</nav>
