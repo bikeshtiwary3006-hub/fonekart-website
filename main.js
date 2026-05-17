@@ -494,15 +494,15 @@ function warranty() {
 }
 
 function contact() {
-  return `<section class="contact-page"><div><p class="eyebrow">Contact</p><h1>Talk to FoneKart.</h1><p>Need help choosing a case, finding your model, or booking installation? Message us and our Noida team will help.</p><div class="contact-list"><span>${icon('phone')} +91 99999 99999</span><span>${icon('insta')} @fonekart</span><span>${icon('store')} hello@fonekart.in</span></div><div class="store-actions"><a class="primary" href="https://wa.me/919999999999?text=${whatsappText}">Chat on WhatsApp</a><button class="secondary" data-go="store">Store location</button></div></div><form class="booking-form"><input placeholder="Name"><input placeholder="Mobile number"><input placeholder="Email"><textarea placeholder="Message"></textarea><button class="primary">Send message</button></form></section>`;
+  return `<section class="contact-page"><div><p class="eyebrow">Contact</p><h1>Talk to FoneKart.</h1><p>Need help choosing a case, finding your model, or booking installation? Message us and our Noida team will help.</p><div class="contact-list"><span>${icon('phone')} +91 8800825975</span><span>${icon('insta')} @fonekart</span><span>${icon('store')} hello@fonekart.in</span></div><div class="store-actions"><a class="primary" href="https://wa.me/918800825975?text=${whatsappText}">Chat on WhatsApp</a><button class="secondary" data-go="store">Store location</button></div></div><form class="booking-form"><input placeholder="Name"><input placeholder="Mobile number"><input placeholder="Email"><textarea placeholder="Message"></textarea><button class="primary">Send message</button></form></section>`;
 }
 
 function footer() {
-  return `<a class="whatsapp" href="https://wa.me/919999999999?text=${whatsappText}">${icon('whatsapp')} WhatsApp</a>
+  return `<a class="whatsapp" href="https://wa.me/918800825975?text=${whatsappText}">${icon('whatsapp')} WhatsApp</a>
   <footer><div><button class="logo footer-logo" data-go="home"><span>F</span> FoneKart</button><p>Style your phone. Protect it better.</p></div>
   <div><h4>Shop categories</h4>${['Mobile Covers', 'Tempered Glass', 'Privacy Glass', 'Smartwatch Straps', 'Power Banks'].map((i) => `<button data-category="${i}">${displayCategory(i)}</button>`).join('')}</div>
   <div><h4>Customer care</h4><button data-go="installation">Book installation</button><button data-go="warranty">Warranty policy</button><button data-go="warranty">Return policy</button><button data-go="about">About Us</button><button data-go="contact">Contact</button></div>
-  <div><h4>Contact</h4><span>WhatsApp: +91 99999 99999</span><span>Instagram: @fonekart</span><span>Email: hello@fonekart.in</span><span>Store: Sector XX, Noida</span></div></footer>`;
+  <div><h4>Contact</h4><span>WhatsApp: +91 8800825975</span><span>Instagram: @fonekart</span><span>Email: hello@fonekart.in</span><span>Store: Sector XX, Noida</span></div></footer>`;
 }
 
 function page() {
